@@ -16,6 +16,9 @@
 .filter-toggle-btn {
     display: block;
 }
+.filter-wrapper{
+    margin-left:200px;
+}
 
 
 
@@ -152,7 +155,7 @@
     display:none;
 }
 .discount{
-    width:100px;
+    width:300px;
 }
 
 
