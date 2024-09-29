@@ -1,0 +1,141 @@
+@media (max-width:575px){
+    .navbar{
+        display:none;
+    }
+    .catalog{
+        display:none;
+    }
+    .address1 {
+        
+        padding: 20px;
+        gap: 20px;
+        height: auto;
+    }
+
+    .loc1, .loc2, .loc3 {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 10px;
+        height: auto;
+    }
+
+    .loc1 img, .loc2 img, .loc3 img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .loc1 p, .loc2 p, .loc3 p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .boat {
+        padding: 20px;
+        gap: 20px;
+        height: auto;
+    }
+
+    .far {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .farz {
+        
+        gap: 20px;
+        padding: 15px;
+        height: auto;
+    }
+
+    .farz1 {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .farz1 img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .farz p {
+        font-size: 14px;
+    }
+
+    .dates {
+        padding-top: 10px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    .butu {
+        
+        gap: 10px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .back, .next {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+    .footer {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 20px; /* Add padding for spacing */
+        background-color: #000; 
+        /* Keep the background color */
+    }
+    
+    .innerfoot {
+        flex-direction: column; /* Stack inner sections vertically */
+        align-items: center; /* Center align the inner sections */
+        padding-top: 20px; /* Reduce top padding */
+    }
+    
+    .black1, .black2, .black3 {
+        width: 90%; /* Set width to 90% for mobile */
+        margin: 0; /* Remove margin */
+        text-align: center; /* Center align text */
+    }
+    
+    .black1 p {
+        padding-top: 10px; /* Adjust padding */
+        color: #CFCFCF; /* Keep text color */
+    }
+    
+    .black2, .black3 {
+        height: auto; /* Allow height to adjust */
+        margin: 10px 0; /* Add margin between sections */
+    }
+    
+    .black2 h3, .black3 h3 {
+        font-size: 18px; /* Increase font size for headings */
+        margin-bottom: 10px; /* Space below headings */
+    }
+    
+    .black2 h5, .black3 h5 {
+        font-size: 14px; /* Maintain font size for subheadings */
+        line-height: 24px; /* Adjust line height for readability */
+        margin: 5px 0; /* Space between subheadings */
+    }
+    
+    .iconnn {
+        justify-content: center; /* Center align social media icons */
+        margin-top: 20px; /* Space above icons */
+        padding-left: 0; /* Remove left padding */
+    }
+    
+    .iconnn img {
+        width: 24px; /* Set a fixed size for social media icons */
+        height: 24px; /* Set a fixed size for social media icons */
+    }
+    
+    .z{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+}
