@@ -223,9 +223,9 @@
     .count{
         display: flex;
     flex-direction: column;
-    display: grid;
-    /* flex-wrap: wrap; */
-    grid-template-columns: repeat(2, 1fr);/* Adjusted padding for mobile */
+   display: grid;
+   
+    grid-template-columns: repeat(2, 1fr);
     margin-left:0;
     }
     /***************/
@@ -304,7 +304,7 @@
     }
     /**/
     .res2 {
-       width:580px; /* Make the container full width */
+       width:auto; /* Make the container full width */
         flex-direction: column; /* Stack the elements vertically */
         gap: 10px; /* Reduce the gap for smaller screens */
         padding: 10px; /* Add padding for a better appearance */
