@@ -12,3 +12,14 @@ function toggleDropdown() {
         arrow.classList.remove('rotate'); // Return arrow to default position when closed
     }
 }
+/********* *
+
+    function toggleFilter() {
+        const filterSection = document.getElementById("filter-section");
+        if (filterSection.style.display === "none" || filterSection.style.display === "") {
+            filterSection.style.display = "block";
+        } else {
+            filterSection.style.display = "none";
+        }
+    }*/
+

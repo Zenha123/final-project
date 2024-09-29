@@ -227,6 +227,31 @@ input[type="text"]{
     font-size: 14px;
     transition: transform 0.3s;
 }
+/****************resp****/
+.filter-toggle-btn {
+    background-color: #007bff;
+    color: rgb(206, 14, 14);
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: none;
+    width: 100%;
+    text-align: left;
+}
+
+/* Hide the filter section on mobile by default */
+/*#filter-section {
+    display: none;
+}
+/*************/
+
+
+
+
+
+
+
 
 /**phones boxes*/
 .discount{

@@ -1,0 +1,372 @@
+@media (max-width:575px){
+    .navbar{
+        display:none;
+    }
+    .catalog{
+        display:none;
+    }
+    /*.promaxx {
+        display: flex;
+        flex-direction: column;
+        height: auto; 
+        padding: 15px;
+    }
+
+    .im {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto; /
+        margin-left: 0;
+    }
+        
+
+    .im1, .im2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img57, .img61, .img62, .img63 {
+        width: 60px; 
+        height: auto;
+    }
+
+    .pro14 {
+        width: 100%;
+        height: auto;
+    }
+
+    .phnscontent {
+        padding-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .phnscontent h1 {
+        font-size: 28px;
+    }
+
+    .phnscontent h2 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .phnscontent h3 {
+        font-size: 14px;
+    }
+
+    .butball {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 20px;
+    }
+
+    .but1, .but2, .but3, .but4 {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .color {
+        justify-content: center;
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    .div1 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .divy1 {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 0;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    .div10 {
+        width: 130px;
+        height: 60px;
+    }
+
+    .phnscontent p {
+        font-size: 12px;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+
+    .phncontentbut {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .wish, .cart {
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    .lastcontent {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .la {
+        margin-top: 0;
+    }*/
+    .im{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left:0;
+
+    }
+    .im1{
+        display: flex;
+        flex-direction: row;
+        gap:80px;
+    }
+    .im2{
+        margin-left:80px;
+    }
+    
+    .promax{
+       
+        flex-direction: column;
+        height:auto;
+        padding-top:0;
+    }
+    .phnscontent {
+        padding-left: 0;
+        
+        text-align: center;
+    }
+    .details{
+        padding:0;
+        height:auto;
+        margin-top: 500px;
+    }
+    .sdd{
+        width:100%;
+    }
+    .tsr{
+        width:100%;
+    }
+    .tsrr{
+        width:100%;
+    }
+    .tpd{
+        width:100%;
+    }
+    .sd{
+        width:100%;
+    }
+    .add{
+        width:100%;
+    }
+    .cpu{
+        width:100%;
+    }
+    .cores{
+        width:100%;
+    }
+    .st{
+        width:100%;
+    }
+    .view{
+        margin-left:0;
+    }
+    .phncontentbut {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+        
+        
+    }
+
+    .wish, .cart {
+        width: 100%;
+        padding: 12px 0;
+    }
+    .reviews{
+        padding:0;
+    }
+
+    .res1{
+        /*width:100%;*/
+        display:flex;
+        flex-direction: row;
+        height:152px;
+        padding: 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        flex: 1 0 0;
+       
+    }
+    .res{
+        display:flex;
+        flex-direction:column;
+    }
+    .end{
+        margin-top: 150px;
+    }
+    .dis1{
+        padding-left:0;
+    }
+    .count{
+        display: flex;
+    flex-direction: column;
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(2, 1fr);/* Adjusted padding for mobile */
+    margin-left:0;
+    }
+    /***************/
+    .count {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .count1, .count2, .count3, .count4 {
+        width: 280px;
+        margin-top: 10px;
+        align-items: center; /* Align items to the left for better visibility */
+        padding: 0 15px;
+    }
+    .Buy {
+        width: 100%;
+        padding: 12px 0;
+        justify-content: center;
+    }
+    .count1 i, .count2 i, .count3 i, .count4 i {
+        padding-left: 0; /* Adjust heart icon position */
+    }
+
+    /****************/
+    .footer {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 20px; /* Add padding for spacing */
+        background-color: #000; 
+        margin-top:400px;/* Keep the background color */
+    }
+    
+    .innerfoot {
+        flex-direction: column; /* Stack inner sections vertically */
+        align-items: center; /* Center align the inner sections */
+        padding-top: 20px; /* Reduce top padding */
+    }
+    
+    .black1, .black2, .black3 {
+        width: 90%; /* Set width to 90% for mobile */
+        margin: 0; /* Remove margin */
+        text-align: center; /* Center align text */
+    }
+    
+    .black1 p {
+        padding-top: 10px; /* Adjust padding */
+        color: #CFCFCF; /* Keep text color */
+    }
+    
+    .black2, .black3 {
+        height: auto; /* Allow height to adjust */
+        margin: 10px 0; /* Add margin between sections */
+    }
+    
+    .black2 h3, .black3 h3 {
+        font-size: 18px; /* Increase font size for headings */
+        margin-bottom: 10px; /* Space below headings */
+    }
+    
+    .black2 h5, .black3 h5 {
+        font-size: 14px; /* Maintain font size for subheadings */
+        line-height: 24px; /* Adjust line height for readability */
+        margin: 5px 0; /* Space between subheadings */
+    }
+    
+    .iconnn {
+        justify-content: center; /* Center align social media icons */
+        margin-top: 20px; /* Space above icons */
+        padding-left: 0; /* Remove left padding */
+    }
+    
+    .iconnn img {
+        width: 24px; /* Set a fixed size for social media icons */
+        height: 24px; /* Set a fixed size for social media icons */
+    }
+    .comment{
+        display: none;
+    }
+    /**/
+    .res2 {
+       width:580px; /* Make the container full width */
+        flex-direction: column; /* Stack the elements vertically */
+        gap: 10px; /* Reduce the gap for smaller screens */
+        padding: 10px; /* Add padding for a better appearance */
+    }
+
+    .execellent, .good, .average, .below-average, .poor {
+        flex-direction: row; /* Keep text and bars side by side */
+        align-items: center; /* Align vertically center */
+       /* Spread text and bars evenly */
+        width: 100%; /* Make sure they take full width */
+    }
+
+    .execellent p, .good p, .average p, .below-average p, .poor p {
+        font-size: 14px; /* Reduce font size for mobile */
+        margin: 0; /* Remove extra margins */
+    }
+
+    .ex, .gd, .av, .bv, .pr {
+        width: 60%; /* Progress bars should occupy 60% width on mobile */
+    }
+
+    .exy, .gdy, .avy, .bvy, .pry {
+        height: 5px; /* Keep bar height consistent */
+    }
+
+    .exy { width: 98%; } /* Width of progress bars relative to percentage */
+    .gdy { width: 55%; }
+    .avy { width: 20%; }
+    .bvy { width: 40%; }
+    .pry { width: 8%; }
+
+    /* Ensure there’s enough space between the progress bar and numbers */
+    .execellent p:last-child, .good p:last-child, .average p:last-child, .below-average p:last-child, .poor p:last-child {
+        font-size: 14px;
+        margin-left: 10px; /* Add a small gap between the bar and the number */
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
