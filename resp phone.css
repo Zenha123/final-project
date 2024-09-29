@@ -3,17 +3,157 @@
     display:none;
 
 }
-/*.filter-toggle-btn {
+
+.catalog{
+    height: 104px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding:0;
+}
+.filter-toggle-btn {
     display: block;
 }
 
 
-.brand1 {
-    width: 100%;
-    padding: 10px;
-    background-color: #fff;
+
+    .dropdown-container {
+        padding: 5px;
+    }
+
+    .dropdown-header, .dropdown1-header, .dropdown2-header {
+        font-size: 16px;
+    }
+
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+    }
+
    
-}*/
+    .filter-toggle-btn {
+        display: block;
+    }
+
+    
+    .discount {
+       
+        height: auto;
+        padding: 20px 10px;
+        /*gap: 20px;*/
+    }
+
+    .dis1 {
+        width: 100%;
+    }
+
+    .count {
+        width: 100%;
+        gap: 15px;
+        justify-content: flex-start;
+       
+
+    
+
+    }
+
+    .count1, .count2, .count3, .count4, .count5, .count6, .count7, .count8, .count9 {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .count1 h3, .count2 h3, .count3 h3, .count4 h3, .count5 h3, .count6 h3, .count7 h3, .count8 h3, .count9 h3 {
+        font-size: 20px;
+    }
+
+    .count1 p, .count2 p, .count3 p, .count4 p, .count5 p, .count6 p, .count7 p, .count8 p, .count9 p {
+        font-size: 14px;
+    }
+
+    .Buy {
+        padding: 10px 40px;
+        margin-top: 20px;
+    }
+    #filter-section {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: auto; 
+    padding: 20px; 
+    background-color: #000;
+    
+}
+
+.innerfoot {
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 20px; 
+}
+
+.black1, .black2, .black3 {
+    width: 90%; 
+    margin: 0; 
+    text-align: center; 
+}
+
+.black1 p {
+    padding-top: 10px; 
+    color: #CFCFCF; 
+}
+
+.black2, .black3 {
+    height: auto; 
+    margin: 10px 0; 
+}
+
+.black2 h3, .black3 h3 {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+}
+
+.black2 h5, .black3 h5 {
+    font-size: 14px; 
+    line-height: 24px; 
+    margin: 5px 0; 
+}
+
+.iconnn {
+    justify-content: center; 
+    margin-top: 20px; 
+    padding-left: 0; 
+}
+
+.iconnn img {
+    width: 24px; 
+    height: 24px; 
+}
+.now{
+    display:flex;
+    overflow-x:auto;
+}
+.dis1 h2{
+    display:none;
+}
+.discount{
+    width:100px;
+}
 
 
 

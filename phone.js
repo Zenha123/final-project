@@ -12,7 +12,7 @@ function toggleDropdown() {
         arrow.classList.remove('rotate'); // Return arrow to default position when closed
     }
 }
-/********* *
+/********* */
 
     function toggleFilter() {
         const filterSection = document.getElementById("filter-section");
@@ -21,5 +21,5 @@ function toggleDropdown() {
         } else {
             filterSection.style.display = "none";
         }
-    }*/
+    }
 

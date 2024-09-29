@@ -23,9 +23,7 @@
     width: 65.4px;
     height: 22.872px;
 }
-/*/.searchbox{
-    margin-right: 100px;
-}*/
+
 .searchbox input[type="text"]{
 display: flex;
 width: 300px;
@@ -62,10 +60,7 @@ justify-content: center;
 align-items: center;
 gap: 24px;
 }
-/*.searchbox{
-    padding-right:20px;
-}
-*/
+
 .navbar ul li a .home{
     color:#000;
 }
@@ -114,7 +109,7 @@ height: 24px;
     display: flex;
     gap:10px;
     
-   /* padding: 24px 160px 56px 160px;*/
+   
     
    
     
@@ -130,18 +125,8 @@ height: 24px;
     
    
 }
-/*.brand2{
-    width:831px;
-    height:1480px;
-    background-color: #fff;
-    display: flex;
 
-  flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    flex: 1 0 0;
-}*/
-/*****/
+
 .dropdown-container {
     border-radius: 5px;
     padding: 10px;
@@ -149,7 +134,7 @@ height: 24px;
     padding-left: 1px;
 }
 
-/* Style for the header */
+
 .dropdown-header {
     display: flex;
     justify-content: space-between;
@@ -159,24 +144,24 @@ height: 24px;
     font-weight: bold;
 }
 
-/* Style for the arrow icon */
+
 .arrow {
     font-size: 14px;
     transition: transform 0.3s;
 }
 
-/* Rotate the arrow when the content is expanded */
+
 .arrow.rotate {
     transform: rotate(180deg);
 }
 
-/* Hide the dropdown content by default */
+
 .dropdown-content {
     display: none;
     padding: 10px 0;
 }
 
-/* Style for the list of brands */
+
 .dropdown-content ul {
     list-style: none;
     padding: 0;
@@ -188,7 +173,7 @@ height: 24px;
     font-size: 16px;
 }
 
-/* Style for the checkbox and label */
+
 .dropdown-content ul li input[type="checkbox"] {
     margin-right: 10px;
 }
@@ -207,7 +192,7 @@ input[type="text"]{
     padding-top:30px;
 }
 
-/* Style for the arrow icon */
+
 .arrow {
     font-size: 14px;
     transition: transform 0.3s;
@@ -222,15 +207,15 @@ input[type="text"]{
     padding-top:30px;
 }
 
-/* Style for the arrow icon */
+
 .arrow {
     font-size: 14px;
     transition: transform 0.3s;
 }
-/****************resp****/
+/****************filter button csss****/
 .filter-toggle-btn {
-    background-color: #007bff;
-    color: rgb(206, 14, 14);
+    background-color: #fff;
+    color: rgb(9, 4, 4);
     font-size: 16px;
     padding: 10px 20px;
     border: none;
@@ -239,16 +224,7 @@ input[type="text"]{
     width: 100%;
     text-align: left;
 }
-
-/* Hide the filter section on mobile by default */
-/*#filter-section {
-    display: none;
-}
-/*************/
-
-
-
-
+/*******************filter button code****/
 
 
 
@@ -763,4 +739,6 @@ line-height: 32px; /* 228.571% */
   gap:30px;
 }
 
-
+.now{
+    background-color: #fff;
+}
