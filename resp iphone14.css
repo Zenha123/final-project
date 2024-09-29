@@ -3,7 +3,7 @@
         display:none;
     }
     .catalog{
-        display:none;
+       
     }
     /*.promaxx {
         display: flex;
@@ -222,19 +222,18 @@
     }
     .count{
         display: flex;
-    flex-direction: column;
+        overflow-x: auto;
+        margin-left:0;
+    /*flex-direction: column;
    display: grid;
    
     grid-template-columns: repeat(2, 1fr);
-    margin-left:0;
+    margin-left:0;*/
     }
     /***************/
-    .count {
-        flex-direction: column;
-        margin-left: 0;
-    }
+    
     .count1, .count2, .count3, .count4 {
-        width: 280px;
+        width: 100%px;
         margin-top: 10px;
         align-items: center; /* Align items to the left for better visibility */
         padding: 0 15px;
@@ -340,6 +339,12 @@
     .execellent p:last-child, .good p:last-child, .average p:last-child, .below-average p:last-child, .poor p:last-child {
         font-size: 14px;
         margin-left: 10px; /* Add a small gap between the bar and the number */
+    }
+    .im2{
+        display:none;
+    }
+    .catalog{
+        display:none;
     }
 }
     
