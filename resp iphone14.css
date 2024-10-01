@@ -130,11 +130,9 @@
     .im1{
         display: flex;
         flex-direction: row;
-        gap:80px;
+        gap:10px;
     }
-    .im2{
-        margin-left:80px;
-    }
+    
     
     .promax{
        
@@ -150,7 +148,7 @@
     .details{
         padding:0;
         height:auto;
-        margin-top: 500px;
+        /*margin-top: 500px;*/
     }
     .sdd{
         width:100%;
@@ -252,7 +250,7 @@
         height: auto; /* Allow height to adjust based on content */
         padding: 20px; /* Add padding for spacing */
         background-color: #000; 
-        margin-top:400px;/* Keep the background color */
+        /*margin-top:400px;/* Keep the background color */
     }
     
     .innerfoot {
@@ -305,8 +303,7 @@
     .res2 {
        width:auto; /* Make the container full width */
         flex-direction: column; /* Stack the elements vertically */
-        gap: 10px; /* Reduce the gap for smaller screens */
-        padding: 10px; /* Add padding for a better appearance */
+         padding: 10px; /* Add padding for a better appearance */
     }
 
     .execellent, .good, .average, .below-average, .poor {
@@ -340,11 +337,57 @@
         font-size: 14px;
         margin-left: 10px; /* Add a small gap between the bar and the number */
     }
-    .im2{
+    /*.im2{
         display:none;
-    }
+    }*/
     .catalog{
         display:none;
+    }
+
+    /*.im{
+        display:none;
+    }*/
+    .im1{
+        display: flex;
+       
+        gap:10px;
+       /* display:none;*/
+    }
+    .lastcontent{
+       /* display:none;*/
+        gap:20px;
+    }
+    .divy1{
+        display:none;
+    }
+    .reviews{
+        margin-top:100px;
+    }
+    .view1{
+        margin-top: 50px;
+    }
+    .res {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .stars{
+        display: flex;
+    flex-direction: row;
+    }
+    .res1{
+        margin-left: 100px;
+        
+    }
+    .im {
+        /* display: none; */
+        width: 100%;
+    }
+    .pro14{
+        width:400px;
+    }
+    .im1{
+        gap:60px;
     }
 }
     
